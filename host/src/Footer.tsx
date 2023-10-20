@@ -10,7 +10,7 @@ export const Footer = () => {
 	// 	});
 	// });
 	useEffect(() => {
-		// mount("#footer");
+		mount("#footer");
 	}, []);
 	return <div id="footer"></div>;
 };
